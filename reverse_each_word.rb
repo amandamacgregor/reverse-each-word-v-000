@@ -1,7 +1,8 @@
 def reverse_each_word(sentence)
-  sentence.split.map{ |each_word| each_word.reverse}.join(" ")
+  sentence.split.collect{ |each_word| each_word.reverse}.join(" ")
 end
 
+###wants collect, not map.. but aren't they the same, per the previous lesson?
 
 # def first_method_reverse_each_word(array)
 #   nuarray = []
