@@ -10,3 +10,5 @@ end
 #   end 
 # array.join(" ")
 # end 
+
+# [ "a", "b", "c" ].join("-")   #=> "a-b-c"
